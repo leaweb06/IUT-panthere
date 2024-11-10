@@ -6,6 +6,7 @@
     <!-- Meta tags SEO -->
     <meta name="description" content="La Panthère est une agence de web design à Lyon spécialisée dans la création d'identité visuelle et la création de sites web sur mesure. Découvrez nos services de design esthétique et structuré. Contactez-nous pour votre projet.">
     <meta name="keywords" content="agence web Lyon, création de site web, identité visuelle, design graphique, création sur mesure, services web Lyon, agence de design Lyon">
+
     <title>La Panthère - Agence de Web Design à Lyon</title>
 
     <!-- Données structurées en JSON-LD -->
@@ -40,103 +41,81 @@
                 "@type": "Place",
                 "name": "Lyon, France"
             },
-            "offers": [
-                {
-                    "@type": "Service",
-                    "serviceType": "Création de sites web sur mesure",
-                    "provider": {
-                        "@type": "Organization",
-                        "name": "La Panthère"
-                    },
-                    "url": "https://leaweb06.github.io/IUT-panthere/services",
-                    "description": "Création de sites web sur mesure pour améliorer votre présence en ligne."
+            "offers": {
+                "@type": "Service",
+                "serviceType": "Création web sites",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "La Panthère"
                 },
-                {
-                    "@type": "Service",
-                    "serviceType": "Création d'identité visuelle",
-                    "provider": {
-                        "@type": "Organization",
-                        "name": "La Panthère"
-                    },
-                    "url": "https://leaweb06.github.io/IUT-panthere/services",
-                    "description": "Création de logos et chartes graphiques pour renforcer l'identité visuelle de votre entreprise."
-                }
-            ],
+                "url": "https://leaweb06.github.io/IUT-panthere/services",
+                "description": "Création de logo, charte graphique et identité visuelle pour les entreprises."
+            },
             "additionalType": "https://schema.org/WebDesign"
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Review",
-            "itemReviewed": {
-                "@type": "Service",
-                "name": "Création de sites web sur mesure",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "La Panthère"
-                }
-            },
-            "author": {
-                "@type": "Person",
-                "name": "Alice Dupont"
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-            },
-            "reviewBody": "La Panthère a créé un site web sur mesure pour mon entreprise. Le design est à la fois esthétique et fonctionnel, exactement ce que je cherchais !",
-            "datePublished": "2024-10-05"
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "Review",
-            "itemReviewed": {
-                "@type": "Service",
-                "name": "Création d'identité visuelle",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "La Panthère"
-                }
-            },
-            "author": {
-                "@type": "Person",
-                "name": "Marc Lefevre"
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "4",
-                "bestRating": "5"
-            },
-            "reviewBody": "Le service de création d'identité visuelle a parfaitement répondu à mes attentes. L'équipe est très créative et professionnelle, mais j'aurais aimé plus de propositions au début.",
-            "datePublished": "2024-09-20"
-        },
-        {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Quels sont les services proposés par La Panthère ?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "La Panthère propose des services de création d'identité visuelle, de création de sites web sur mesure, ainsi que du conseil en stratégie numérique pour améliorer la présence en ligne des entreprises."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Comment puis-je contacter La Panthère ?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Vous pouvez nous contacter par téléphone au +33 4 94 02 89 12 ou par email à contact@agencelapanthere.com."
-                    }
-                }
-            ]
         }
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Service",
+    "name": "Création de sites web sur mesure",
+    "provider": {
+      "@type": "Organization",
+      "name": "La Panthère"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Alice Dupont"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  },
+  "reviewBody": "La Panthère a créé un site web sur mesure pour mon entreprise. Le design est à la fois esthétique et fonctionnel, exactement ce que je cherchais !",
+  "datePublished": "2024-10-05"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Service",
+    "name": "Création d'identité visuelle",
+    "provider": {
+      "@type": "Organization",
+      "name": "La Panthère"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Marc Lefevre"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4",
+    "bestRating": "5"
+  },
+  "reviewBody": "Le service de création d'identité visuelle a parfaitement répondu à mes attentes. L'équipe est très créative et professionnelle, mais j'aurais aimé plus de propositions au début.",
+  "datePublished": "2024-09-20"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels sont les services proposés par La Panthère ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Panthère propose des services de création d'identité visuelle, de création de sites web sur mesure, ainsi que du conseil en stratégie numérique pour améliorer la présence en ligne des entreprises."
+      }
+    }
+  ]
+}
     </script>
 </head>
-<body>
-</body>
-</html>
+<html>
 
 <head>
 	<meta charset="utf-8">
@@ -145,9 +124,7 @@
 	<meta name="description"
 		content="Osez vous démarquer ! Notre agence web design s&rsquo;occupe de booster votre présence en ligne en fonction de vos valeurs et de votre image de marque. Reposez-vous, on dessine votre succès.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="icon" type="image/webp" href="favicon.webp">
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="image/webp" href="favicon.webp">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -341,7 +318,7 @@
 							conseils pour optimiser votre présence en ligne. Notre objectif est de bâtir une relation
 							durable avec vous, afin que vous puissiez vous concentrer sur ce que vous faites de mieux :
 							faire prospérer votre entreprise. <br><br><a class="ltc-white bold-link"
-								href="Contact.html">Contactez notre équipe</a><br>
+								href="page2.html">Contactez notre équipe</a><br>
 						</p>
 					</div>
 				</div>
@@ -354,46 +331,63 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" />
+						<h2 class="mg-md text-center">Nous travaillons avec beaucoup de clients, voici nos réalisations de design graphique
+							: </h2>
 					</div>
-			</div>
-			<div class="row tight-width-whitespace portfolio-row">
-				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
-					<h3 class="mg-md text-center">
-						Refonte d'un site web pour un journal local
-					</h3>
-					<p class="text-center">
-						Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
-					</p>
 				</div>
+				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+						<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1"
+							data-caption="Transformation Digitale d&rsquo;un Journal Local"
+							data-frame="snapshot-lb"><img src="img/1.webp"
+								aria-label="paris web design logo agence web meilleure agence et refonte site web journal"
+								class="img-responsive portfolio-thumb" /></a>
 						<h3 class="mg-md text-center">
-							Création d'un site web pour photographes
+							Transformation Digitale d&rsquo;un Journal Local
 						</h3>
 						<p class="text-center">
-							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
+							Nous avons redonné vie à l'identité visuelle d'un journal lyonnais, en créant un design
+							moderne et attrayant qui capte l&rsquo;attention de ses lecteurs.
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1"
+							data-caption="Un Site Web Éblouissant pour Photographes" data-frame="snapshot-lb"><img
+								src="img/2.webp" class="img-responsive portfolio-thumb"
+								alt="paris web design logo agence web meilleure agence, Un Site Web Éblouissant pour Photographes" /></a>
+						<h3 class="mg-md text-center">
+							Un Site Web Éblouissant pour Photographes
+						</h3>
+						<p class="text-center">
+							Nous avons imaginé une plateforme parfaite pour sublimer les œuvres des photographes, leur
+							permettant de partager leurs clichés dans un écrin numérique design.
 						</p>
 					</div>
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+						<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1"
+							data-caption="Un Voyageur en Ligne : Récits et Illustrations" data-frame="snapshot-lb"><img
+								src="img/3.bmp" class="img-responsive portfolio-thumb"
+								alt="paris web design logo agence web meilleure agence, Un Voyageur en Ligne : Récits et Illustrations" /></a>
 						<h3 class="mg-md text-center">
-							Création d'un site internet pour un voyageur
+							Un Voyageur en Ligne : Récits et Illustrations
 						</h3>
 						<p class="text-center">
-							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
+							Nous avons designer un site internet captivant, accompagné d&rsquo;illustrations saisissantes,
+							pour mettre en valeur les vidéos et articles inspirants de ce voyageur passionné.
 						</p>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+						<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1"
+							data-caption="Site Internet sur Mesure pour une Agence de Mariage"
+							data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb"
+								alt="paris web design logo agence web meilleure agence, Site Internet sur Mesure pour une Agence de Mariage" /></a>
 						<h3 class="mg-md text-center">
-							Conception d'un site pour une agence de mariage
+							Site Internet sur Mesure pour une Agence de Mariage
 						</h3>
 						<p class="text-center">
-							Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
+							Nous avons collaboré avec cette agence de mariage pour créer un site web design qui présente ses services de manière détaillée et engageante, facilitant ainsi l'expérience des futurs mariés.
 						</p>
 					</div>
 				</div>
