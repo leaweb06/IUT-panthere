@@ -6,7 +6,6 @@
     <!-- Meta tags SEO -->
     <meta name="description" content="La Panthère est une agence de web design à Lyon spécialisée dans la création d'identité visuelle et la création de sites web sur mesure. Découvrez nos services de design esthétique et structuré. Contactez-nous pour votre projet.">
     <meta name="keywords" content="agence web Lyon, création de site web, identité visuelle, design graphique, création sur mesure, services web Lyon, agence de design Lyon">
-
     <title>La Panthère - Agence de Web Design à Lyon</title>
 
     <!-- Données structurées en JSON-LD -->
@@ -41,81 +40,103 @@
                 "@type": "Place",
                 "name": "Lyon, France"
             },
-            "offers": {
+            "offers": [
+                {
+                    "@type": "Service",
+                    "serviceType": "Création de sites web sur mesure",
+                    "provider": {
+                        "@type": "Organization",
+                        "name": "La Panthère"
+                    },
+                    "url": "https://leaweb06.github.io/IUT-panthere/services",
+                    "description": "Création de sites web sur mesure pour améliorer votre présence en ligne."
+                },
+                {
+                    "@type": "Service",
+                    "serviceType": "Création d'identité visuelle",
+                    "provider": {
+                        "@type": "Organization",
+                        "name": "La Panthère"
+                    },
+                    "url": "https://leaweb06.github.io/IUT-panthere/services",
+                    "description": "Création de logos et chartes graphiques pour renforcer l'identité visuelle de votre entreprise."
+                }
+            ],
+            "additionalType": "https://schema.org/WebDesign"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "itemReviewed": {
                 "@type": "Service",
-                "serviceType": "Création web sites",
+                "name": "Création de sites web sur mesure",
                 "provider": {
                     "@type": "Organization",
                     "name": "La Panthère"
-                },
-                "url": "https://leaweb06.github.io/IUT-panthere/services",
-                "description": "Création de logo, charte graphique et identité visuelle pour les entreprises."
+                }
             },
-            "additionalType": "https://schema.org/WebDesign"
+            "author": {
+                "@type": "Person",
+                "name": "Alice Dupont"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "La Panthère a créé un site web sur mesure pour mon entreprise. Le design est à la fois esthétique et fonctionnel, exactement ce que je cherchais !",
+            "datePublished": "2024-10-05"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "Service",
+                "name": "Création d'identité visuelle",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "La Panthère"
+                }
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marc Lefevre"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4",
+                "bestRating": "5"
+            },
+            "reviewBody": "Le service de création d'identité visuelle a parfaitement répondu à mes attentes. L'équipe est très créative et professionnelle, mais j'aurais aimé plus de propositions au début.",
+            "datePublished": "2024-09-20"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Quels sont les services proposés par La Panthère ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "La Panthère propose des services de création d'identité visuelle, de création de sites web sur mesure, ainsi que du conseil en stratégie numérique pour améliorer la présence en ligne des entreprises."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Comment puis-je contacter La Panthère ?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Vous pouvez nous contacter par téléphone au +33 4 94 02 89 12 ou par email à contact@agencelapanthere.com."
+                    }
+                }
+            ]
         }
-{
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Service",
-    "name": "Création de sites web sur mesure",
-    "provider": {
-      "@type": "Organization",
-      "name": "La Panthère"
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Alice Dupont"
-  },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5"
-  },
-  "reviewBody": "La Panthère a créé un site web sur mesure pour mon entreprise. Le design est à la fois esthétique et fonctionnel, exactement ce que je cherchais !",
-  "datePublished": "2024-10-05"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Service",
-    "name": "Création d'identité visuelle",
-    "provider": {
-      "@type": "Organization",
-      "name": "La Panthère"
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Marc Lefevre"
-  },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "4",
-    "bestRating": "5"
-  },
-  "reviewBody": "Le service de création d'identité visuelle a parfaitement répondu à mes attentes. L'équipe est très créative et professionnelle, mais j'aurais aimé plus de propositions au début.",
-  "datePublished": "2024-09-20"
-},
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Quels sont les services proposés par La Panthère ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "La Panthère propose des services de création d'identité visuelle, de création de sites web sur mesure, ainsi que du conseil en stratégie numérique pour améliorer la présence en ligne des entreprises."
-      }
-    }
-  ]
-}
     </script>
 </head>
-<html>
+<body>
+</body>
+</html>
 
 <head>
 	<meta charset="utf-8">
