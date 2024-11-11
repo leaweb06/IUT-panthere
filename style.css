@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .a-btn:hover,
@@ -1064,5 +1064,23 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .nav a {
+        color: #000000; /* Texte foncé pour une meilleure visibilité */
+        font-weight: bold; /* Accentue la visibilité du texte */
+        padding: 12px 15px; /* Plus d’espace pour faciliter l'interaction tactile */
+        font-size: 16px; /* Taille de police plus grande pour les écrans mobiles */
+        text-transform: uppercase; /* Uniformise le style de la navigation */
+        transition: color 0.3s ease, background-color 0.3s ease; /* Animation pour l'interaction */
+    }
+
+    .navbar .nav a:hover, 
+    .navbar .nav a:focus {
+        color: #ffffff; /* Texte blanc au survol */
+        background-color: #333333; /* Fond contrasté au survol */
+        border-radius: 5px; /* Arrondir légèrement les bords pour le style */
     }
 }
