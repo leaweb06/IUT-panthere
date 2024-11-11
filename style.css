@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, .0.95);
 }
 
 .d-bloc button:hover {
@@ -652,7 +652,7 @@ label,
 a {
     font-family: "Helvetica", Arial, sans-serif; /* Ajout de polices de secours */
     font-weight: 400;
-    color: #575757; /* Suppression du !important pour une meilleure flexibilité */
+    color: #222222; /* Suppression du !important pour une meilleure flexibilité */
     text-decoration: none; /* Supprime le soulignement pour un style plus propre */
     transition: color 0.3s ease, text-shadow 0.3s ease; /* Transition douce pour les interactions */
 }
@@ -1051,36 +1051,5 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
-
-@media (max-width: 767px) {
-    .navbar .nav a {
-        color: #000000; /* Texte foncé pour une meilleure visibilité */
-        font-weight: bold; /* Accentue la visibilité du texte */
-        padding: 12px 15px; /* Plus d’espace pour faciliter l'interaction tactile */
-        font-size: 16px; /* Taille de police plus grande pour les écrans mobiles */
-        text-transform: uppercase; /* Uniformise le style de la navigation */
-        transition: color 0.3s ease, background-color 0.3s ease; /* Animation pour l'interaction */
-    }
-
-    .navbar .nav a:hover, 
-    .navbar .nav a:focus {
-        color: #ffffff; /* Texte blanc au survol */
-        background-color: #333333; /* Fond contrasté au survol */
-        border-radius: 5px; /* Arrondir légèrement les bords pour le style */
     }
 }
