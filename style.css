@@ -742,12 +742,6 @@ h4 {
     margin-top: 24px;
 }
 
-.text-container {
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent foncé */
-    padding: 5px 10px;
-    display: inline-block; /* Ajuste le fond uniquement autour du texte */
-    border-radius: 5px; /* Ajoute un léger arrondi pour un aspect plus moderne */
-}
 .white {
     color: #FFFFFF!important;
 }
@@ -789,7 +783,6 @@ h4 {
 
 .tc-white {
     color: white!important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombre foncée pour augmenter le contraste */
 }
 
 .btn-atomic-tangerine {
