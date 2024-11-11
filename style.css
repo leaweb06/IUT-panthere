@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -1056,50 +1056,4 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    
-}
-/* Styles pour les icônes (vignettes) */
-.thumb-icon {
-  width: 100%; /* Utilise toute la largeur de son conteneur */
-  max-width: 150px; /* Limite la taille des icônes pour uniformité */
-  height: auto; /* Conserve le ratio d'aspect */
-  margin: 0 auto; /* Centre l'icône dans le conteneur */
-  transition: transform 0.3s ease; /* Effet de zoom au survol */
-}
-
-/* Effet de zoom au survol */
-.thumb-icon:hover {
-  transform: scale(1.1); /* Zoom léger au survol */
-}
-
-/* Grand format pour lightbox ou affichage plein écran */
-.portfolio-full {
-  width: 100%; /* Prend toute la largeur disponible */
-  max-width: 1200px; /* Limite la taille pour une meilleure qualité d'affichage */
-  height: auto;
-}
-
-/* Style général pour le conteneur des images de portfolio */
-.portfolio-row {
-  margin-bottom: 30px; /* Espace entre les rangées */
-}
-
-/* Styles pour le conteneur et les éléments textuels */
-.bgc-white {
-  background-color: #ffffff;
-  padding: 20px;
-}
-
-h3.mg-md {
-  font-size: 1.3em;
-  margin-top: 10px;
-  color: #333333;
-}
-
-p.text-center {
-  color: #666666;
-  font-size: 0.9em;
-  line-height: 1.4;
-  max-width: 80%; /* Limite la largeur pour améliorer la lisibilité */
-  margin: 10px auto; /* Centre le texte sous les images */
 }
